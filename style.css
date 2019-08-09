@@ -1,0 +1,134 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 50px 0;
+    background: url(https://images.pexels.com/photos/490466/pexels-photo-490466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+}
+
+h4 {
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #000000;
+    line-height: 1.5em;
+}
+
+header nav {
+    background-color: #ced6e0;
+    height: 110px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+header nav ul {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+header nav a img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+header .carousel {
+    margin: 200px auto;
+    max-width: 640px;
+    box-shadow: 5px 2px 5px #000000;
+}
+
+.justify-center {justify-content: center;}
+
+.align-end {align-items: flex-end;}
+
+.first .info {
+    font-family: 'Raleway', sans-serif;
+    height: 160px;
+}
+
+.first ul, .first ul li {
+    display: inline;
+    background-image: url(https://images.pexels.com/photos/988874/pexels-photo-988874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 1.3em;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.7);
+}
+
+.first ul.nav.nav-tabs li {
+    margin-left: 180px;
+}
+
+.second .my-row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.second button {
+    transform: scale(1.5);
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.7);
+}
+
+.second .modal .modal-header h4 {
+    color: #000000;
+    text-shadow: none;
+}
+
+.second .modal .modal-footer button {
+    transform: scale(1);
+}
+
+@media (max-width: 1200px) {
+
+    h4 {
+        font-size: 1.6em;
+        line-height: 1.3em;
+    }
+
+    .first ul, .first ul li {
+        font-size: 1.2em;
+    }
+
+    .first ul.nav.nav-tabs li {
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .first ul.nav.nav-tabs li {
+        margin-left: 80px;
+    }
+
+    .second .my-row {height: 230px;}
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 200px 0;
+    }
+
+    header .navbar-header a img {
+        width: 100%;
+    }
+
+    header ul.nav {
+        width: 100%;
+        margin: 70px 0;
+    }
+
+    .first ul.nav.nav-tabs li {
+        margin-left: 10px;
+    }
+
+    .first ul, .first ul li {
+        font-size: 1em;
+    }
+
+    .second .my-row {height: 400px;}
+}
+
+
+
+
